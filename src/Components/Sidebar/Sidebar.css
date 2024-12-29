@@ -1,0 +1,100 @@
+.sidebar{
+    min-height: 100vh;
+    display:inline-flex;
+    flex-direction:column;
+    background-color:#f0f4f9 ;
+   justify-content: space-between;
+    padding:25px 15px;
+}
+.sidebar img{
+  width:20px;
+}
+
+.menu{
+    margin-left:10px;
+    display: block;
+    cursor: pointer;
+}
+
+.new{
+   
+    display: inline-flex;
+    align-items: center;
+    gap:10px;
+    border-radius: 50px;
+    margin-top:40px;
+    font-size: 15px;
+    padding:8px 15px;
+    background-color:#e6eaf1;
+    color:grey;
+    cursor:pointer;
+   
+}
+.newimg{
+    width:15px;   
+    height: 25px;
+}
+
+.recent {
+    display: flex;
+    flex-direction:column ;
+    
+}
+ .sidebar .recent-titile{
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.recent-entry{
+display: flex;
+gap:5px;
+align-items: start;
+padding: 10px;
+padding-right: 40px;
+border-radius: 50px;
+color: #282828;
+cursor: pointer;
+}
+.recent-entry:hover{
+
+background-color: #e2e6eb;
+
+}
+
+.bottom{
+    display:flex;
+    flex-direction: column;    
+}
+.bitem{
+    cursor: pointer; 
+    padding-right: 10px;
+ } 
+
+/* <div className='sidebar'>
+<div className="top">
+   <img className='menu' src={assets.menu_icon} alt="" />
+   <div className="new">
+       <img src={assets.plus_icon} alt="" />
+       <p>New Chat</p></div>
+</div>
+<div className="recent">
+   <p className='recent-titile'>Recent</p>
+   <div className="recent-entry">
+       <img src={assets.message_icon} alt="" />
+       <p>what is react....</p>
+   </div>
+   </div>
+<div className="bottom">
+   <div className="bitem">
+   <img className='question' src={assets.question_icon} alt="" />
+   <p>Help</p></div>
+   <div className="bitem">
+   <img className='activity' src={assets.history_icon} alt="" />
+   <p>Activity</p></div>
+   <div className="bitem">
+   <img className='settings' src={assets.setting_icon} alt="" />
+   <p>Settings</p></div>
+</div>
+</div>
+)
+} */
